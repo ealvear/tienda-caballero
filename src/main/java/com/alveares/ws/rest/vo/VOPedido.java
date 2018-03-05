@@ -1,56 +1,22 @@
 package com.alveares.ws.rest.vo;
 
-//import java.util.List;
 
 public class VOPedido {
 	private String  nombre;
 	private String  tipoId;	
 	private Number  id;
-	private String  tipoProducto;
+	private String  tipoProductos;
 	private Number  cantidadProductos;
-//	private List<Producto> Productos;
 	private Number  precioTotal	;
 	private String  fechayHora;
 	private String dirEntrega;
 	private boolean estadoPedido;
-	
-	
-	public VOPedido() {
-		
-	}
-	
-	public VOPedido(String nombre, String tipoId, Number id, Number numeroProductos, Number precioTotal,
-			String fechayHora, String dirEntrega, boolean estadoPedido) {
-		super();
-		this.nombre = nombre;
-		this.tipoId = tipoId;
-		this.id = id;
-		this.cantidadProductos = numeroProductos;
-		this.precioTotal = precioTotal;
-		this.fechayHora = fechayHora;
-		this.dirEntrega = dirEntrega;
-		this.estadoPedido = estadoPedido;
-	}
-	public boolean isEstadoPedido() {
-		return estadoPedido;
-	}
-	public void setEstadoPedido(boolean estadoPedido) {
-		this.estadoPedido = estadoPedido;
-	}
 	public String getNombre() {
 		return nombre;
 	}
-	
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-//	
-//	public List<Producto> getProductos() {
-//		return Productos;
-//	}
-//	public void setProductos(List<Producto> productos) {
-//		Productos = productos;
-//	}
 	public String getTipoId() {
 		return tipoId;
 	}
@@ -63,11 +29,17 @@ public class VOPedido {
 	public void setId(Number id) {
 		this.id = id;
 	}
+	public String getTipoProductos() {
+		return tipoProductos;
+	}
+	public void setTipoProductos(String tipoProductos) {
+		this.tipoProductos = tipoProductos;
+	}
 	public Number getCantidadProductos() {
 		return cantidadProductos;
 	}
-	public void setCantidadProductos(Number numeroProductos) {
-		this.cantidadProductos = numeroProductos;
+	public void setCantidadProductos(Number cantidadProductos) {
+		this.cantidadProductos = cantidadProductos;
 	}
 	public Number getPrecioTotal() {
 		return precioTotal;
@@ -87,6 +59,13 @@ public class VOPedido {
 	public void setDirEntrega(String dirEntrega) {
 		this.dirEntrega = dirEntrega;
 	}
+	public boolean isEstadoPedido() {
+		return estadoPedido;
+	}
+	public void setEstadoPedido(boolean estadoPedido) {
+		this.estadoPedido = estadoPedido;
+	}
+		
 	
 		
 	

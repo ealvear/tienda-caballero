@@ -27,6 +27,7 @@ public class ServicePedidoJR {
 	System.out.println("Nombre Solicitante :" +vo.getNombre());
 	System.out.println("Tipo Identificacion :" +vo.getTipoId());
 	System.out.println("Numero Identificacion :" +vo.getId());
+	System.out.println("Tipo Producto :" +vo.getTipoProductos());
 	System.out.println("Cantidad Productos :" +vo.getCantidadProductos());
 	System.out.println("Fecha y Hora Entrega :" +vo.getFechayHora());
 	System.out.println("Direccion Entrega :" +vo.getDirEntrega());

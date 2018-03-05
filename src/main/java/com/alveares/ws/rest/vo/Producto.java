@@ -7,17 +7,17 @@ public class Producto {
 	private Number precio;
 	private Number cantidad;
 
-	public Producto() {
-		
-	}
-	
-	public Producto(Number id, String nombre, Number precio, Number cantidad) {
-		super();
-		this.id = id;
-		this.nombre = nombre;
-		this.precio = precio;
-		this.cantidad = cantidad;
-	}
+//	public Producto() {
+//		
+//	}
+//	
+//	public Producto(Number id, String nombre, Number precio, Number cantidad) {
+//		super();
+//		this.id = id;
+//		this.nombre = nombre;
+//		this.precio = precio;
+//		this.cantidad = cantidad;
+//	}
 
 	public Number getId() {
 		return id;
